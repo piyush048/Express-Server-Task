@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.0",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@types/joi": "^17.2.3",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.13.2",
+    "ts-node": "^10.9.2"
+  },
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "serve": "node dist/index.js",
+    "build": "tsc",
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "Piyush Gupta",
+  "license": "ISC",
+  "description": "Basic Learning Project with typescript"
+}

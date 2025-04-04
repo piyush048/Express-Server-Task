@@ -1,0 +1,2 @@
+export {default as StudentModel} from "./student.model";
+export {default as TaskModel} from "./task.model";
