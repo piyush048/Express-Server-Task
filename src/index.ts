@@ -1,5 +1,5 @@
 import express, {Request, Response} from 'express';
-import {taskRouter, stuRouter} from './routes';
+import {taskRouter, stuRouter, userRouter} from './routes';
 import {connectDB} from './config'
 import dotenv from 'dotenv';
 dotenv.config();
@@ -7,8 +7,9 @@ dotenv.config();
 const app = express();
 
 app.use(express.json());
-app.use('/student', stuRouter);
+app.use('/api', stuRouter);
 app.use('/tasks', taskRouter);
+app.use('/user', userRouter);
 
 connectDB();
 
