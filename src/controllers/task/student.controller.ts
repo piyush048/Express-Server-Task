@@ -1,5 +1,5 @@
 import {NextFunction, Request, Response} from 'express';
-import {StudentModel} from '../models';
+import {StudentModel} from '../../models';
 
 export const createStudent = async (req: Request, res: Response, next: NextFunction): Promise<void> =>{
     try {

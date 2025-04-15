@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { createStudent, showStudent } from "../controllers";
+import { createStudent, showStudent } from "../controllers/task";
 
 const stuRouter = Router();
 

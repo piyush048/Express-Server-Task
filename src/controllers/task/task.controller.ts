@@ -1,6 +1,6 @@
 import express, {Request, Response} from 'express';
-import {TaskModel} from '../models';
-import taskModel from '../models/task.model';
+import {TaskModel} from '../../models';
+import taskModel from '../../models/task.model';
 
 
 const createTasks = async (req: Request, res: Response) => {

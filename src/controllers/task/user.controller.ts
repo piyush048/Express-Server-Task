@@ -1,6 +1,6 @@
 import {Request, Response} from "express";
-import {UserModel} from '../models';
-import { comparePassword, hashPassword } from "../utils/hash";
+import {UserModel} from '../../models';
+import { comparePassword, hashPassword } from "../../utils/hash";
 
 const createUser = async (req : Request, res : Response) : Promise<void> => {
     try {

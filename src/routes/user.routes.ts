@@ -1,5 +1,5 @@
 import {Router} from "express";
-import { createUser, getUser, loginUser } from "../controllers/user.controller";
+import { createUser, getUser, loginUser } from "../controllers/task/user.controller";
 import { createUserSchema, loginSchema } from "../validations/user.validations";
 import {validate} from '../middlewares/validate';
 
